@@ -1,0 +1,11 @@
+INFO - [♥] Lovely 0.7.1
+INFO - [♥] Game directory is at "C:\\Program Files\\Steam\\steamapps\\common\\Balatro"
+INFO - [♥] Writing logs to "C:\\Users\\amate\\AppData\\Roaming\\Balatro\\Mods\\lovely\\log"
+INFO - [♥] Using mod directory at "C:\\Users\\amate\\AppData\\Roaming\\Balatro\\Mods"
+INFO - [♥] Initialization complete in 11ms
+INFO - [♥] Applied 1 patch to 'conf.lua'
+INFO - [♥] Applied 9 patches to 'main.lua'
+INFO - [♥] Applied 7 patches to 'engine/controller.lua'
+INFO - [♥] Applied 4 patches to 'game.lua'
+INFO - [♥] Applied 4 patches to 'functions/UI_definitions.lua'
+INFO - [G] [DebugPlus] Press [/] to toggle console and press [shift] + [/] to toggle new log previews 

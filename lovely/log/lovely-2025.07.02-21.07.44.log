@@ -1,0 +1,121 @@
+INFO - [♥] Lovely 0.7.1
+INFO - [♥] Game directory is at "C:\\Program Files\\Steam\\steamapps\\common\\Balatro"
+INFO - [♥] Writing logs to "C:\\Users\\amate\\AppData\\Roaming\\Balatro\\Mods\\lovely\\log"
+INFO - [♥] Using mod directory at "C:\\Users\\amate\\AppData\\Roaming\\Balatro\\Mods"
+INFO - [♥] Cleaning up dumps directory at "C:\\Users\\amate\\AppData\\Roaming\\Balatro\\Mods\\lovely\\dump"
+INFO - [♥] Initialization complete in 63ms
+INFO - [♥] Applied 1 patch to 'conf.lua'
+INFO - [♥] Applied 23 patches to 'main.lua'
+INFO - [♥] Applied 12 patches to 'engine/controller.lua'
+INFO - [♥] Applied 15 patches to 'back.lua'
+INFO - [♥] Applied 7 patches to 'tag.lua'
+INFO - [♥] Applied 2 patches to 'engine/moveable.lua'
+INFO - [♥] Applied 2 patches to 'engine/sprite.lua'
+INFO - [♥] Applied 2 patches to 'engine/animatedsprite.lua'
+INFO - [♥] Applied 67 patches to 'functions/misc_functions.lua'
+INFO - [♥] Applied 40 patches to 'game.lua'
+INFO - [♥] Applied 1 patch to 'globals.lua'
+INFO - [♥] Applied 5 patches to 'engine/ui.lua'
+INFO - [♥] Applied 91 patches to 'functions/UI_definitions.lua'
+INFO - [♥] Applied 48 patches to 'functions/state_events.lua'
+INFO - [♥] Applied 115 patches to 'functions/common_events.lua'
+INFO - [♥] Applied 50 patches to 'functions/button_callbacks.lua'
+INFO - [♥] Applied 165 patches to 'card.lua'
+INFO - [♥] Applied 10 patches to 'cardarea.lua'
+INFO - [♥] Applied 36 patches to 'blind.lua'
+INFO - [♥] Applied 2 patches to 'engine/text.lua'
+INFO - [G] Failed to connect to the debug server 
+INFO - [G] 2025-07-02 21:07:50 :: DEBUG :: DebugConsole :: Steamodded Debug Socket started ! 
+INFO - [G] 2025-07-02 21:07:50 :: INFO  :: SMODS :: Steamodded v1.0.0~BETA-0614a 
+INFO - [♥] Applied 9 patches to 'engine/sound_manager.lua'
+INFO - [♥] Applied 1 patch to 'engine/save_manager.lua'
+INFO - [G] 2025-07-02 21:07:53 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-07-02 21:07:53 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\amate\AppData\Roaming\Balatro\Mods/Balatro Test Mod/smods-1.0.0-beta-0614a/manifest.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2025-07-02 21:07:53 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\amate\AppData\Roaming\Balatro\Mods/DebugPlus/.luarc.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2025-07-02 21:07:53 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\amate\AppData\Roaming\Balatro\Mods/DebugPlus/dev/.luarc.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2025-07-02 21:07:53 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2025-07-02 21:07:53 :: INFO  :: TIMER :: [0000] Injected Fonts in 0.002 ms 
+INFO - [G] 2025-07-02 21:07:53 :: INFO  :: TIMER :: [0000] Injected Language in 0.003 ms 
+INFO - [G] 2025-07-02 21:07:53 :: INFO  :: TIMER :: [0000] Injected [INTERNAL] in 2.329 ms 
+INFO - [G] line not found
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] 2025-07-02 21:07:54 :: ERROR :: StackTrace :: Oops! The game crashed
+[SMODS _ "src/game_object.lua"]:408: Failed to collect file data for Atlas tjnk_Jokers
+Stack Traceback
+===============
+(1) Lua local 'handler' at file 'main.lua:612'
+	Local variables:
+	 msg = string: "[SMODS _ \"src/game_object.lua\"]:408: Failed to collect file data for Atlas tjnk_Jokers"
+	 (*temporary) = Lua function '?' (defined at line 31 of chunk [SMODS _ "src/logging.lua"])
+	 (*temporary) = string: "Oops! The game crashed\
+"
+(2) LÖVE function at file 'boot.lua:352' (best guess)
+	Local variables:
+	 errhand = Lua function '?' (defined at line 598 of chunk main.lua)
+	 handler = Lua function '?' (defined at line 598 of chunk main.lua)
+(3) global C function 'assert'
+(4) Lua method 'inject' at Steamodded file 'src/game_object.lua:408' 
+	Local variables:
+	 self = table: 0x152c0a50  {full_path:C:\Users\amate\AppData\Roaming\Balatro\Mods/Balatro Test Mod/assets/2x/Joker.png, atlas:Atlas, _saved_d_u:true, original_key:Jokers (more...)}
+	 file_path = string: "Joker.png"
+(5) Lua method 'inject_class' at Steamodded file 'src/game_object.lua:183' 
+	Local variables:
+	 self = table: 0x14efac18  {required_params:table: 0x14efab68, pre_inject_class:function: 0x14efabf8, set:Atlas, subclasses:table: 0x14efadc8, disable_mipmap:false, atlas_table:ASSET_ATLAS (more...)}
+	 inject_time = number: 0.733112
+	 start_time = number: 9.53234
+	 end_time = number: 9.53234
+	 o = table: 0x152c0a50  {full_path:C:\Users\amate\AppData\Roaming\Balatro\Mods/Balatro Test Mod/assets/2x/Joker.png, atlas:Atlas, _saved_d_u:true, original_key:Jokers (more...)}
+	 (for generator) = C function: builtin#6
+	 (for state) = table: 0x14efab40  {1:mod_tags, 2:achievements, 3:tjnk_Jokers, 4:DebugPlus_modicon}
+	 (for control) = number: 3
+	 i = number: 3
+	 key = string: "tjnk_Jokers"
+(6) Lua field 'injectObjects' at Steamodded file 'src/game_object.lua:257' 
+	Local variables:
+	 class = table: 0x14efac18  {required_params:table: 0x14efab68, pre_inject_class:function: 0x14efabf8, set:Atlas, subclasses:table: 0x14efadc8, disable_mipmap:false, atlas_table:ASSET_ATLAS (more...)}
+(7) Lua field 'injectObjects' at Steamodded file 'src/game_object.lua:259' 
+	Local variables:
+	 class = table: 0x14cd9cd8  {check_duplicate_register:function: 0x14cd9f10, check_duplicate_key:function: 0x14cd9f30, subclasses:table: 0x14cd9da0, obj_list:function: 0x14cda030 (more...)}
+	 (for generator) = C function: builtin#6
+	 (for state) = table: 0x14cd9da0  {1:table: 0x14cda1c8, 2:table: 0x14cda390, 3:table: 0x14cda560, 4:table: 0x14efac18, 5:table: 0x14efb6a0, 6:table: 0x14efc110, 7:table: 0x14e76580 (more...)}
+	 (for control) = number: 4
+	 _ = number: 4
+	 subclass = table: 0x14efac18  {required_params:table: 0x14efab68, pre_inject_class:function: 0x14efabf8, set:Atlas, subclasses:table: 0x14efadc8, disable_mipmap:false, atlas_table:ASSET_ATLAS (more...)}
+(8) Lua field 'injectItems' at Steamodded file 'src/loader.lua:608' 
+(9) Lua global 'initSteamodded' at Steamodded file 'src/loader.lua:658' 
+(10) Lua method 'start_up' at file 'game.lua:211'
+	Local variables:
+	 self = table: 0x149d6a70  {SPEEDFACTOR:1, F_GUIDE:false, keybind_mapping:table: 0x149e1a50, F_CRASH_REPORTS:false, P_CARDS:table: 0x14b946c0, shared_undiscovered_joker:table: 0x14ecec50 (more...)}
+	 settings = string: "return {[\"version\"]=\"1.0.1o-FULL\",[\"paused\"]=true,[\"QUEUED_CHANGE\"]={},[\"COMP\"]={[\"prev_name\"]=\"\",[\"name\"]=\"\",[\"score\"]=7.4043668523398e+15,},[\"colourblind_option\"]=true,[\"play_button_pos\"]=2,[\"CUSTOM_DECK\"]={[\"Collabs\"]={[\"Spades\"]=\"default_Spades\",[\"paperback_Stars\"]=\"paperback_steel_ball_paperback_stars\",[\"Clubs\"]=\"default_Clubs\",[\"Hearts\"]=\"default_Hearts\",[\"Diamonds\"]=\"default_Diamonds\",[\"paperback_Crowns\"]=\"paperback_cult_of_the_lamb_paperback_crowns\",},},[\"STATUSTEXT\"]=0,[\"colour_palettes\"]={[\"Spades\"]=\"lc\",[\"paperback_Stars\"]=\"lc\",[\"Clubs\"]=\"hc\",[\"Hearts\"]=\"hc\",[\"Diamonds\"]=\"hc\",[\"paperback_Crowns\"]=\"lc\",},[\"crashreports\"]=false,[\"tutorial_progress\"]={[\"hold_parts\"]={[\"first_hand_3\"]=true,[\"small_blind\"]=true,[\"big_blind\"]=true,[\"first_hand_4\"]=true,[\"second_hand\"]=true,[\"shop_1\"]=true,[\"first_hand_2\"]=true,[\"first_hand\"]=true,},[\"section\"]=\"second_hand\",[\"completed_parts\"]={[\"first_hand\"]=true,[\"first_hand_3\"]=true,[\"small_blind\"]=true,[\"big_blind\"]=true,[\"first_hand_4\"]=true,[\"shop_1\"]=true,[\"first_hand_section\"]=true,[\"first_hand_2\"]=true,[\"second_hand\"]=true,},},[\"language\"]=\"en-us\",[\"run_stake_stickers\"]=true,[\"profile\"]=1,[\"WINDOW\"]={[\"vsync\"]=1,[\"display_names\"]={[2]=\"2\",[1]=\"1\",},[\"screenmode\"]=\"Borderless\",[\"DISPLAYS\"]={[2]={[\"screen_resolutions\"]={[\"strings\"]={[1]=\"1920 X 1080\",},[\"values\"]={[1]={[\"w\"]=1920,[\"h\"]=1080,},},},[\"DPI_scale\"]=1,[\"MONITOR_DIMS\"]={[\"height\"]=1080,[\"width\"]=1920,},},[1]={[\"screen_resolutions\"]={[\"strings\"]={[1]=\"3840 X 2160\",},[\"values\"]={[1]={[\"w\"]=1920,[\"h\"]=1080,},},},[\"screen_res\"]={[\"w\"]=1920,[\"h\"]=1080,},[\"DPI_scale\"]=1,[\"MONITOR_DIMS\"]={[\"height\"]=2160,[\"width\"]=3840,},},},[\"selected_display\"]=1,},[\"screenshake\"]=78.006437670188,[\"GAMESPEED\"]=4,[\"SOUND\"]={[\"volume\"]=22.221016229291,[\"music_volume\"]=0,[\"game_sounds_volume\"]=100,},[\"music_control\"]={[\"current_track\"]=\"\",[\"desired_track\"]=\"\",[\"lerp\"]=1,},[\"ACHIEVEMENTS_EARNED\"]={[\"speedrunner\"]=true,[\"_10k\"]=true,[\"retrograde\"]=true,[\"card_player\"]=true,[\"roi\"]=true,[\"tiny_hands\"]=true,[\"_100000k\"]=true,[\"cartomancy\"]=true,[\"big_hands\"]=true,[\"royale\"]=true,[\"mid_stakes\"]=true,[\"completionist\"]=true,[\"nest_egg\"]=true,[\"_1000k\"]=true,[\"ante_upper\"]=true,[\"astronomy\"]=true,[\"heads_up\"]=true,[\"card_discarder\"]=true,[\"legendary\"]=true,[\"extreme_couponer\"]=true,[\"shattered\"]=true,[\"low_stakes\"]=true,[\"high_stakes\"]=true,[\"clairvoyance\"]=true,[\"ante_up\"]=true,[\"you_get_what_you_get\"]=true,},[\"tutorial_complete\"]=true,[\"current_setup\"]=\"Continue\",[\"ambient_control\"]={[\"ambientFire1\"]={[\"per\"]=1.1,[\"vol\"]=0,},[\"ambientOrgan1\"]={[\"per\"]=0.7,[\"vol\"]=0,},[\"ambientFire2\"]={[\"per\"]=1.05,[\"vol\"]=0,},[\"ambientFire3\"]={[\"per\"]=1,[\"vol\"]=0,},},[\"FASTFORWARD\"]=1,[\"DEMO\"]={[\"win_CTA_shown\"]=true,[\"quit_CTA_shown\"]=true,[\"timed_CTA_shown\"]=true,[\"total_uptime\"]=15.015608380778,},[\"GRAPHICS\"]={[\"texture_scaling\"]=2,[\"crt\"]=80.255834838408,[\"shadows\"]=\"On\",[\"bloom\"]=2,},}"
+	 settings_ver = nil
+	 new_colour_proto = table: 0x149df2e0  {Spades:table: 0x149df548, Hearts:table: 0x149df3f8, Diamonds:table: 0x149df4b0, Clubs:table: 0x149df600}
+	 sound_files = table: 0x14da9510  {1:ambientFire1.ogg, 2:ambientFire2.ogg, 3:ambientFire3.ogg, 4:ambientOrgan1.ogg, 5:button.ogg, 6:cancel.ogg, 7:card1.ogg, 8:card3.ogg, 9:cardFan2.ogg (more...)}
+	 shader_files = table: 0x14dad3d0  {1:CRT.fs, 2:background.fs, 3:booster.fs, 4:debuff.fs, 5:dissolve.fs, 6:flame.fs, 7:flash.fs, 8:foil.fs, 9:gold_seal.fs, 10:holo.fs, 11:hologram.fs (more...)}
+(11) Lua field 'load' at file 'main.lua:952'
+(12) Lua function '?' at file 'main.lua:899' (best guess)
+(13) global C function 'xpcall'
+(14) LÖVE function at file 'boot.lua:368' (best guess)
+	Local variables:
+	 result = boolean: true
+	 main = nil
+(15) global C function 'xpcall'
+(16) LÖVE function at file 'boot.lua:377' (best guess)
+	Local variables:
+	 func = Lua function '(LÖVE Function)' (defined at line 355 of chunk [love "boot.lua"])
+	 inerror = boolean: true
+	 deferErrhand = Lua function '(LÖVE Function)' (defined at line 348 of chunk [love "boot.lua"])
+	 earlyinit = Lua function '(LÖVE Function)' (defined at line 355 of chunk [love "boot.lua"])
+ 
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] 2025-07-02 21:07:54 :: INFO  :: StackTrace :: Additional Context:
+Balatro Version: 1.0.1o-FULL
+Modded Version: 1.0.0~BETA-0614a-STEAMODDED
+LÖVE Version: 11.5.0
+Lovely Version: 0.7.1
+Platform: Windows
+Steamodded Mods:
+    1: DebugPlus by WilsontheWolf [ID: DebugPlus, Version: 1.4.2~dev, Uses Lovely]
+    2: BalaTest by axsoulo [ID: BalaTest, Version: 1.0.0]
+Lovely Mods: 

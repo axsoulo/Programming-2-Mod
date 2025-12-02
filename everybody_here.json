@@ -1,0 +1,15 @@
+{
+    "id": "programmingJonkers",
+    "display_name": "Programming 2 Project Jokers",
+    "author": ["axsoulo"],
+    "description": "wow look at this cool stuff i did",
+    "prefix": "Pokers",
+    "main_file": "everybody_here.lua",
+    "priority": 0,
+    "badge_colour": "98c792",
+    "version": "1.0.0",
+    "dependencies": [
+        "Steamodded (>=1.*)",
+        "Lovely (>=0.6)"
+    ]
+}
