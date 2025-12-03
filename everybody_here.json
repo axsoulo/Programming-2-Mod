@@ -3,7 +3,7 @@
     "display_name": "Programming 2 Project Jokers",
     "author": ["axsoulo"],
     "description": "wow look at this cool stuff i did",
-    "prefix": "Pokers",
+    "prefix": "pokers",
     "main_file": "everybody_here.lua",
     "priority": 0,
     "badge_colour": "98c792",
